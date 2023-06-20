@@ -1,0 +1,84 @@
+.DataTable {
+  height: 600px;
+  width: 1300px;
+  padding: 10px;
+  margin-top: 20px;
+
+  .dataTableTitle {
+    width: 100%;
+    color: rgb(16, 3, 3);
+    font-size: 25px;
+    margin-bottom: 10px;
+    float: right;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link {
+      text-decoration: none;
+      color: green;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 5px 10px;
+      border: 1px solid green;
+      border-radius: 5px;
+      cursor: pointer;
+
+      .iconAdd {
+        margin-right: 5px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .cellWithImg {
+    display: flex;
+    align-items: center;
+
+    .cellImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+  }
+
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    .viewBtn {
+      width: 50px;
+      padding: 2px 2px;
+      border-radius: 5px;
+      background-color: rgb(16, 30, 153);
+      color: white;
+      border: 1px dotted rgba(22, 14, 131, 0.5);
+      cursor: pointer;
+    }
+
+    .editBtn {
+      width: 50px;
+      padding: 2px 2px;
+      border-radius: 5px;
+      background-color: green;
+      color: white;
+      border: 1px dotted rgba(14, 131, 35, 0.5);
+      cursor: pointer;
+    }
+
+    .deleteBtn {
+      width: 55px;
+      padding: 2px 2px;
+      border-radius: 5px;
+      background-color: rgb(177, 7, 7);
+      color: white;
+      border: 1px dotted rgba(131, 14, 14, 0.569);
+      cursor: pointer;
+    }
+  }
+}
